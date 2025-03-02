@@ -1,0 +1,13 @@
+# Node.js
+frontend/node_modules/
+
+# Python
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/.Python
+backend/env/
+backend/.venv/
+
+# macOS
+.DS_Store
