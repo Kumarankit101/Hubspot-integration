@@ -14,8 +14,8 @@ from integrations.integration_item import IntegrationItem
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
 
-CLIENT_ID = "e6b1e6de-60bf-488b-86b6-88472f27ac11"
-CLIENT_SECRET = "13fc13f3-4421-4ad0-9367-8c30c02944e7"
+CLIENT_ID = "XXXXXX"
+CLIENT_SECRET = "XXXXXX"
 encoded_client_id_secret = base64.b64encode(
     f"{CLIENT_ID}:{CLIENT_SECRET}".encode()
 ).decode()

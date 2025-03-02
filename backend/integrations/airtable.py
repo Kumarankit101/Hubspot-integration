@@ -17,8 +17,8 @@ from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
 # CLIENT_ID = 'XXX'
 # CLIENT_SECRET = 'XXX'
-CLIENT_ID = "1468e6b3-a9bf-47fd-9162-00f0f4cf974b"
-CLIENT_SECRET = "68ffdf3bb23eac7c0a232850b11f4ff06a453d968e10c9e59c3ebbc8c0c444b1"
+CLIENT_ID = "XXXXXX"
+CLIENT_SECRET = "XXXXXX"
 REDIRECT_URI = "http://localhost:8000/integrations/airtable/oauth2callback"
 authorization_url = f"https://airtable.com/oauth2/v1/authorize?client_id={CLIENT_ID}&response_type=code&owner=user&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fintegrations%2Fairtable%2Foauth2callback"
 
